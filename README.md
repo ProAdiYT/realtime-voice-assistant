@@ -52,17 +52,22 @@ This project can be adapted for:
 ## 📁 Project Structure (Simplified)
 project-root/
 project-root/
-│── server/
+
+project-root/
+│
+├── server/
 │   ├── index.ts          # Backend server
 │   ├── routes/           # API endpoints
 │   └── services/         # ASR + TTS logic
 │
-│── client/
+├── client/
 │   └── src/              # Frontend UI
 │
-│── package.json
-│── .env.example
-│── README.md
+├── package.json
+├── .env.example
+└── README.md
+
+
 
 
 ---
