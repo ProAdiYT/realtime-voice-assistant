@@ -50,4 +50,51 @@ This project can be adapted for:
 ---
 
 ## 📁 Project Structure (Simplified)
+project-root/
+│── server/
+│ ├── index.ts # Backend server
+│ ├── routes/ # API endpoints
+│ └── services/ # ASR + TTS logic
+│
+│── client/
+│ └── src/ # Frontend UI
+│
+│── package.json
+│── .env.example
+│── README.md
+
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in your root folder using:
+
+MURF_API_KEY=your_murf_falcon_key
+ASR_API_KEY=your_asr_key # Deepgram or AssemblyAI
+PORT=3000
+
+
+**Never commit your actual keys to GitHub.**
+
+---
+
+## 📦 Installation & Setup
+
+### **1️⃣ Install dependencies**
+```bash
+npm install
+
+2️⃣ Add your API keys
+Copy the example env file and edit it:
+
+cp .env.example .env
+
+3️⃣ Run the backend
+npm run dev
+
+4️⃣ Run the frontend (if included)
+npm run dev:client
+
+
 
