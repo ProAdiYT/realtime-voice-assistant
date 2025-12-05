@@ -53,20 +53,20 @@ This project can be adapted for:
 project-root/
 project-root/
 
-project-root/
+```project-root/
+├─ server/
+│  ├─ index.ts          # Backend server
+│  ├─ routes/           # API endpoints
+│  └─ services/         # ASR + TTS logic
 │
-├── server/
-│   ├── index.ts          # Backend server
-│   ├── routes/           # API endpoints
-│   └── services/         # ASR + TTS logic
+├─ client/
+│  └─ src/              # Frontend UI
 │
-├── client/
-│   └── src/              # Frontend UI
-│
-├── package.json
-├── .env.example
-└── README.md
+├─ package.json
+├─ .env.example
+└─ README.md
 
+```
 
 
 
