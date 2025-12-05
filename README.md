@@ -51,13 +51,14 @@ This project can be adapted for:
 
 ## 📁 Project Structure (Simplified)
 project-root/
+project-root/
 │── server/
-│ ├── index.ts # Backend server
-│ ├── routes/ # API endpoints
-│ └── services/ # ASR + TTS logic
+│   ├── index.ts          # Backend server
+│   ├── routes/           # API endpoints
+│   └── services/         # ASR + TTS logic
 │
 │── client/
-│ └── src/ # Frontend UI
+│   └── src/              # Frontend UI
 │
 │── package.json
 │── .env.example
